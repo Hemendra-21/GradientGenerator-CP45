@@ -1,12 +1,11 @@
 import styled from 'styled-components'
 
 export const GradientGeneratorContainer = styled.div`
-   display: flex;  
+  display: flex;
   justify-content: center;
   align-items: center;
-  background-image:linear-gradient(${props => props.gradientValue}) 
+  background-image: linear-gradient(${props => props.gradientValue});
   min-height: 100vh;
- 
 `
 
 export const ResponsiveContainer = styled.div`
